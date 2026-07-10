@@ -13,6 +13,8 @@ Analyze product sales data to uncover profitability gaps across products, region
 
 ## Dataset
 
+Sourced from Kaggle: [Product Sales Dataset 2023–2024](https://www.kaggle.com/datasets/yashyennewar/product-sales-dataset-2023-2024)
+
 `product_sales_dataset_final` — 200,000+ retail transaction records with the following fields:
 
 | Column | Description |
