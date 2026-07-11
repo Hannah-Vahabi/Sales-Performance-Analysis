@@ -32,11 +32,15 @@ Sourced from Kaggle: [Product Sales Dataset 2023–2024](https://www.kaggle.com/
 ## Analysis Performed
 
 1. **Overall KPIs** — total orders, revenue, profit, profit margin, and average order value
-2. **Data quality check** — identified and excluded a header row that was mistakenly imported as a data record
-3. **Trend analysis** — monthly revenue and profit trends
-4. **Driver analysis** — profit margin by product category, to identify high- and low-margin categories
-5. **Regional analysis** — revenue and profit performance by region
-6. **Product analysis** — top 10 products by total profit
+2. **Category profitability** — revenue, profit, and margin by product category, to identify profit drivers
+3. **Product analysis** — top 20 products by total profit
+4. **Regional analysis** — orders, revenue, profit, and margin by region
+5. **Trend analysis** — monthly revenue and profit trends
+6. **Customer analysis** — top 10 customers by total profit
+7. **Underperforming products** — products with profit margin below 15%
+8. **Order size analysis** — revenue and average order value by quantity bucket
+
+Note: the original CSV header row was mistakenly imported into the table as a data record. This was identified as a data quality issue and excluded from all queries above.
 
 ## Key Findings
 
